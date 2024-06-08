@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background: url("/images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.score p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.gameplay-area {
+    width: 450px;
+    height: 450px;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    background-color: lightblue;
+    border: 5px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
